@@ -4,7 +4,8 @@
     right: 2px;
     border: 25px solid;
     border-color: transparent transparent #2c47552b transparent;
-}
+    display: none;
+  }
 #scroller:hover{
     border-color: transparent transparent var(--secondary-color) transparent;
 
@@ -55,6 +56,9 @@
   @media (min-width: 1200px) {
     .container {
       width: 1170px;
+    }
+    #scroller{
+      display: block;
     }
   }
   /* End Global Rules */
