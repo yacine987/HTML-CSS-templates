@@ -58,8 +58,12 @@
       width: 1170px;
     }
     #scroller{
+<<<<<<< HEAD
       display: block;
     }
+=======
+        display:none;
+>>>>>>> 6ca4270399c7dd905a59ff02c5b98605b423bda7
   }
   /* End Global Rules */
   /* Start Components */
